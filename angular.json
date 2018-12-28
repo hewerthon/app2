@@ -23,9 +23,14 @@
               "src/assets"
             ],
             "styles": [
+              "../app2/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../app2/node_modules/tether/dist/js/tether.min.js",
+              "../app2/node_modules/jquery/dist/jquery.min.js",
+              "../app2/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
